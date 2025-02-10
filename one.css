@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    background: linear-gradient(170deg, #0d0c0c, #0e0e0e, #000000, #3f3f3f);
+    color: white;    
+    height: 100%;
+    font-family: Raleway;
+}
+.box1,.box2,.box3,.box4,.box5{
+    height:70vh;
+    width: 30vw;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+.box1{
+    background-image: linear-gradient( 8.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+    transform:translate(-50%,-50%) rotate(-10deg) ;
+}
+.box2{
+    background-image: radial-gradient( circle farthest-corner at 96.1% 7.2%,  rgba(9,178,62,1) 0%, rgba(19,19,19,1) 100.2% );
+    transform:translate(-50%,-50%) ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.box4{
+    background: linear-gradient(200.6deg, #0dcdcd 0%, #300860 100%);
+    transform:translate(-50%,-50%) rotate(-30deg);
+}
+.box5{
+    background: radial-gradient( circle 700px at 40% 7.2%,  rgba(37,89,222,1) 0%, rgba(37,89,222,1) 7.5%, rgba(4,4,29,1) 44.7% );
+    display: flex;
+    transform:translate(-50%,-50%) rotate(-20deg);
+}
+.box3{
+    background: linear-gradient( 100.6deg,  rgba(204,0,0,1) 11.2%, rgba(68,0,0,1) 100.6% );
+    transform:translate(-50%,-50%) rotate(-40deg);
+    
+
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.heading{
+    font-size: 35px;
+    text-align: center;
+    padding: 25px;
+    font-weight: 600;
+}
+.icon>img{ 
+    height: 100px;
+    padding: 20px;
+}
+.icon img:nth-child(4){
+    margin-top: 20px;
+
+}
+.leetcode{
+    height: 100px;
+    margin-top: 50px;
+    width: 90%;
+}
