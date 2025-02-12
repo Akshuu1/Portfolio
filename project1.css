@@ -4,8 +4,7 @@
 }
 html{
     /* background: linear-gradient(170deg, #0d0c0c, #0e0e0e, #000000, #3f3f3f); */
-    color: rgb(1, 1, 1);    
-    /* color: white; */
+    color: white;
     height: 100%;
     font-family: Raleway;
 }
@@ -30,7 +29,7 @@ html{
 }
 .box4{
     /* background: linear-gradient(200.6deg, #0dcdcd 0%, #300860 100%); */
-    background-color: #97f582;
+    background-color: #80f267;
     transform:translate(-50%,-50%) rotate(-40deg);
 }
 .box5{
@@ -40,7 +39,7 @@ html{
 }
 .box3{
     /* background: linear-gradient( 100.6deg,  rgba(204,0,0,1) 11.2%, rgba(68,0,0,1) 100.6% ); */
-    background-color: #fcfc74;
+    background-color: hwb(52 16% 0%);
     transform:translate(-50%,-50%);
     display: flex;
     flex-direction: column;
@@ -113,3 +112,23 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.dark-mode {
+    background: linear-gradient(200deg, #0d0c0c, #0e0e0e, #000000, #3f3f3f);
+    color: white;
+  }
+button{
+    border: none;
+    font-size: 30px;
+    background:none;   
+
+}
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    margin-right: 50px;
+}
+
+.ri-sun-fill {
+    color: white;
+} 
