@@ -3,8 +3,8 @@
     margin: 0;
 }
 html{
-    background: linear-gradient(170deg, #0d0c0c, #0e0e0e, #000000, #3f3f3f);
-    color: white;    
+    /* background: linear-gradient(170deg, #0d0c0c, #0e0e0e, #000000, #3f3f3f); */
+    color: white;   
     height: 100%;
     font-family: Raleway;
 }
@@ -18,23 +18,28 @@ html{
     transform:translate(-50%,-50%);
 }
 .box1{
-    background-image: linear-gradient( 8.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% );
+    /* background-image: linear-gradient( 8.2deg,  rgba(33,3,40,1) 7.5%, rgba(65,5,72,1) 88.7% ); */
+    background-color: #fc9dfd;
     transform:translate(-50%,-50%) rotate(-40deg);
 }
 .box2{
-    background-image: radial-gradient( circle farthest-corner at 96.1% 7.2%,  rgba(9,178,62,1) 0%, rgba(19,19,19,1) 100.2% );
+    /* background-image: radial-gradient( circle farthest-corner at 96.1% 7.2%,  rgba(9,178,62,1) 0%, rgba(19,19,19,1) 100.2% ); */
+    background-color:#fb5a5a;
     transform:translate(-50%,-50%) rotate(-30deg);
 }
 .box3{
-    background: linear-gradient( 100.6deg,  rgba(204,0,0,1) 11.2%, rgba(68,0,0,1) 100.6% );
+    /* background: linear-gradient( 100.6deg,  rgba(204,0,0,1) 11.2%, rgba(68,0,0,1) 100.6% ); */
+    background-color: #fcfc74;
     transform:translate(-50%,-50%) rotate(-20deg);
 }
 .box4{
-    background: linear-gradient(200.6deg, #0dcdcd 0%, #300860 100%);
+    /* background: linear-gradient(200.6deg, #0dcdcd 0%, #300860 100%); */
+    background-color: #97f582;
     transform:translate(-50%,-50%) rotate(-10deg);
 }
 .box5{
-    background: radial-gradient( circle 700px at 40% 7.2%,  rgba(37,89,222,1) 0%, rgba(37,89,222,1) 7.5%, rgba(4,4,29,1) 44.7% );
+    /* background: radial-gradient( circle 700px at 40% 7.2%,  rgba(37,89,222,1) 0%, rgba(37,89,222,1) 7.5%, rgba(4,4,29,1) 44.7% ); */
+    background-color: #6e93f8;
     display: flex;
 
 }
@@ -51,7 +56,7 @@ html{
     left: 50%;
     transform:translate(-50%,-50%);
     border-radius: 30px;
-    box-shadow: -20px -20px 80px rgb(5, 2, 20);
+    box-shadow: -15px -15px 70px rgb(149, 197, 232);
     border: none;
 }
 .name{
@@ -60,13 +65,14 @@ html{
     text-align: center;
     margin-top:15vw;
     line-height: 1.5;
+    margin-left: 5vw;
 }
 .name1{
     margin-top: 5px;
     font-size: 35px;
     letter-spacing: 2px;
     width: 70%;
-    margin-left: 5vw;
+    margin-left: 6.5vw;
     text-align: center;
 
 }
